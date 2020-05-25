@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    color: #fff;
+    background: url('be.jpg') center;
+    background-size: cover;
+}
+.container {
+    background: rgba(0,0,0,.7);
+    overflow: hidden;
+    box-shadow: 0 0 6px #000;
+}
+.container h1 {
+    width: 30%;
+    margin: 15px auto;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 4px solid dodgerblue;
+    font-size: 35px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.form div {margin: 20px;}
+.form div p {margin-bottom: 20px;}
+.form div input:not([type = 'checkbox']) {
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    outline: none;
+    font-size: 25px;
+    border: 1px solid rgba(255,255,255,.3);
+    color: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+}
+.btn {
+    padding: 12px;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: gray;
+    color: #fff;
+    cursor: pointer;
+}
